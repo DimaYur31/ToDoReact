@@ -1,0 +1,22 @@
+.button {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	background: #550dc9;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #ffffff;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+}

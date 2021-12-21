@@ -1,0 +1,27 @@
+.header {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+}
+.img {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+.span {
+	position: relative;
+	display: inline-block;
+	width: 13px;
+	cursor: pointer;
+	height: 4.09px;
+	text-align: center;
+}
+.spanImg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 7.07px;
+	height: 4.09px;
+}

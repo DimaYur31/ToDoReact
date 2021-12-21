@@ -1,0 +1,66 @@
+.body {
+	display: grid;
+	max-width: 100%;
+	grid-template: 48px/ 16px 1fr 20px;
+	align-items: center;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #373737;
+	grid-column-gap: 8px;
+	padding: 0 12px;
+	margin: 8px 3px 3px 3px;
+	overflow: hiden;
+	margin-bottom: 16px;
+}
+
+.checked {
+	display: block;
+	width: 100%;
+	max-height: 42px;
+	word-wrap: break-word;
+	overflow: auto;
+	padding-right: 10px;
+	text-decoration: line-through;
+	color: #a3a3a3;
+}
+
+.checkbox {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #550dc9;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #550dc9;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.checkbox::before {
+	content: url("../../../img/checked.svg");
+}
+
+.btns {
+	display: grid;
+}
+
+.btnDelete {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	border-radius: 0;
+	background: #fff;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.btnDelete::before {
+	content: url("../../../img/delete.svg");
+}

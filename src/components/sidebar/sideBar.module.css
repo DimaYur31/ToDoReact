@@ -1,0 +1,16 @@
+.sideBar {
+	position: relative;
+	width: 54px;
+	min-height: calc(100vh - 64px);
+	background: #550dc9;
+	padding-top: 24px;
+}
+.body {
+	position: relative;
+	background: #440ba0;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}

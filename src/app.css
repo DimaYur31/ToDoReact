@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App {
+	position: relative;
+	display: grid;
+	grid-template:
+		[start] "navbar navbar" 64px [row2]
+		[row2] "sidebar cont" 1fr [row-end]/ 52px 1fr;
+	overflow: hidden;
+}
+
+.Navbar {
+	grid-area: navbar;
+}
+.Sidebar {
+	grid-area: sidebar;
+}
+.Content {
+	grid-area: cont;
+	padding: 24px;
+}

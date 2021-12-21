@@ -1,0 +1,67 @@
+.body {
+	display: grid;
+	grid-template: 48px/ 16px 1fr minmax(20px, 80px);
+	align-items: center;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #373737;
+	grid-column-gap: 8px;
+	margin: 8px 3px 3px 3px;
+	padding: 0 12px;
+	overflow: hiden;
+	margin-bottom: 16px;
+}
+
+.checkbox {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #ffffff;
+	border: 1px solid #ececec;
+	border-radius: 4px;
+	width: 16px;
+	height: 16px;
+}
+
+.text {
+	display: block;
+	width: 100%;
+	max-height: 42px;
+	word-wrap: break-word;
+	overflow: auto;
+	padding-right: 10px;
+}
+
+.btns {
+	grid-column: 3/4;
+	display: grid;
+	grid-template: 1fr / repeat(3, 20px);
+	grid-column-gap: 8px;
+}
+
+.btnEdit,
+.btnCopy,
+.btnDelete {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	border-radius: 0;
+	background: #fff;
+	display: inline-block;
+	cursor: pointer;
+}
+.btnEdit::before {
+	content: url("../../../img/edit.svg");
+}
+.btnCopy::before {
+	content: url("../../../img/copy.svg");
+}
+.btnDelete::before {
+	content: url("../../../img/delete.svg");
+}

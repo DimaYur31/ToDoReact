@@ -1,0 +1,12 @@
+.form {
+	display: grid;
+	grid-template: 1fr / calc(67.5% - 58px) 50px;
+	grid-column-gap: 8px;
+	margin-bottom: 8px;
+}
+
+@media (max-width: 900px) {
+	.form {
+		grid-template: 1fr / calc(100% - 58px) 50px;
+	}
+}

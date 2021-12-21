@@ -1,0 +1,22 @@
+.body {
+	position: relative;
+	width: 52px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 24px;
+}
+.img {
+	display: inline-block;
+	width: 18.13px;
+	height: 24px;
+	margin-bottom: 2px;
+}
+.text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6px;
+	line-height: 7px;
+}
